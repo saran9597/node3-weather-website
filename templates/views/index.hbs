@@ -16,10 +16,17 @@
             <input placeholder="Location">
             <button>Search</button>
         </form>
-       
-        <p id="message-1"></p>
-        {{>image}}
-        <p id="message-2"></p>
+        <message>
+            <p id="message-1"></p>
+            <div>
+                <span>
+                    {{>image}}
+                </span>
+                <span>
+                    <p id="message-2"></p>
+                </span>
+            </div>
+        </message>
     </div>
     {{>footer}}
     <script src="/js/scripts.js"></script>
